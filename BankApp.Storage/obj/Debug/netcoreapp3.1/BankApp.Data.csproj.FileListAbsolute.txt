@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\bin\Debug\netcoreapp3.1\BankApp.Data.deps.json
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\bin\Debug\netcoreapp3.1\BankApp.Data.dll
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\bin\Debug\netcoreapp3.1\BankApp.Data.pdb
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\obj\Debug\netcoreapp3.1\BankApp.Data.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\obj\Debug\netcoreapp3.1\BankApp.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\obj\Debug\netcoreapp3.1\BankApp.Data.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\obj\Debug\netcoreapp3.1\BankApp.Data.AssemblyInfo.cs
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\obj\Debug\netcoreapp3.1\BankApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\obj\Debug\netcoreapp3.1\BankApp.Data.dll
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Storage\obj\Debug\netcoreapp3.1\BankApp.Data.pdb

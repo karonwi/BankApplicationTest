@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Qd+VUfXidDyAMpQ1lCKk2J5OpomLbZyIQ0C3cIllJZm/yot9vWGM9BrETyEjoG+B50w4BxWpuxSae0CBAnZ6aA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hp\\Desktop\\karonwi\\week-5-karonwi\\BankApp.Commons\\BankApp.Commons.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

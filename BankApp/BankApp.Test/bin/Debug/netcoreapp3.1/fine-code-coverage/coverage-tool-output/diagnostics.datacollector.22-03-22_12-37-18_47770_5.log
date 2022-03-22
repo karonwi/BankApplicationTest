@@ -1,0 +1,244 @@
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.613, 3864996902585, datacollector.dll, Version: 17.0.0
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.623, 3864996988166, datacollector.dll, DataCollectorMain.Run: Starting data collector run with args: --port,53000,--parentprocessid,30684,--diag,C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp\BankApp.Test\bin\Debug\netcoreapp3.1\fine-code-coverage\coverage-tool-output\diagnostics.datacollector.22-03-22_12-37-18_47770_5.log,--tracelevel,4
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.623, 3864996990257, datacollector.dll, DataCollector: Monitoring parent process with id: '30684'
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.637, 3864997130934, datacollector.dll, Trying to connect to server on socket : 127.0.0.1:53000 
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.646, 3864997217870, datacollector.dll, SocketCommunicationManager : SetupClientAsync : Attempting to connect to the server.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:18.657, 3864997330235, datacollector.dll, Connected to the server successfully 
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:18.657, 3864997331326, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.760, 3864998358222, datacollector.dll, DataCollector: Start Request Processing.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.766, 3864998422514, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.BeforeTestRunStart) -> {
+  "SettingsXml": "<RunSettings><RunConfiguration><ResultsDirectory>C:\\Users\\hp\\Desktop\\karonwi\\week-5-karonwi\\BankApp\\BankApp.Test\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory><TargetPlatform>X64</TargetPlatform><TargetFrameworkVersion>.NETCoreApp,Version=v3.1</TargetFrameworkVersion><DesignMode>False</DesignMode><CollectSourceInformation>False</CollectSourceInformation><TestAdaptersPaths>C:\\Program Files\\dotnet\\sdk\\6.0.102\\Extensions</TestAdaptersPaths></RunConfiguration><LoggerRunSettings><Loggers><Logger friendlyName=\"blame\" enabled=\"True\" /><Logger friendlyName=\"Console\" uri=\"logger://microsoft/TestPlatform/ConsoleLogger/v1\" assemblyQualifiedName=\"Microsoft.VisualStudio.TestPlatform.CommandLine.Internal.ConsoleLogger, vstest.console, Version=15.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a\" codeBase=\"C:\\Program Files\\dotnet\\sdk\\6.0.102\\vstest.console.dll\" enabled=\"True\" /></Loggers></LoggerRunSettings><DataCollectionRunSettings><DataCollectors><DataCollector friendlyName=\"blame\" enabled=\"True\"><Configuration><ResultsDirectory>C:\\Users\\hp\\Desktop\\karonwi\\week-5-karonwi\\BankApp\\BankApp.Test\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\coverage-tool-output</ResultsDirectory></Configuration></DataCollector></DataCollectors></DataCollectionRunSettings></RunSettings>",
+  "Sources": [
+    "C:\\Users\\hp\\Desktop\\karonwi\\week-5-karonwi\\BankApp\\BankApp.Test\\bin\\Debug\\netcoreapp3.1\\fine-code-coverage\\build-output\\BankApp.Test.dll"
+  ],
+  "IsTelemetryOptedIn": false
+}
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.814, 3864998902277, datacollector.dll, TestPluginCache: Update extensions started. Skip filter = False
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.815, 3864998911861, datacollector.dll, TestPluginCache: Using directories for assembly resolution 'C:\Program Files\dotnet\sdk\6.0.102\Extensions'.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.815, 3864998912976, datacollector.dll, TestPluginCache: Updated the available extensions to 'C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.825, 3864999012592, datacollector.dll, TestPluginCache.DiscoverTestExtensions: finding test extensions in assemblies ends with: Collector.dll TPluginInfo: Microsoft.VisualStudio.TestPlatform.Common.DataCollector.DataCollectorConfig TExtension: Microsoft.VisualStudio.TestPlatform.ObjectModel.DataCollection.DataCollector
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.826, 3864999016747, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.826, 3864999017595, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.826, 3864999018063, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.827, 3864999026111, datacollector.dll, AssemblyResolver.ctor: Creating AssemblyResolver with searchDirectories C:\Program Files\dotnet\sdk\6.0.102\Extensions,C:\Program Files\dotnet\sdk\6.0.102
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.829, 3864999046254, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using extension path.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.829, 3864999048526, datacollector.dll, TestPluginCache.GetExtensionPaths: Filtered extension paths: C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.829, 3864999049030, datacollector.dll, TestPluginCache.GetExtensionPaths: Added default extension paths: 
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.829, 3864999049312, datacollector.dll, TestPluginCache.GetExtensionPaths: Added unfilterableExtensionPaths: 
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.829, 3864999049820, datacollector.dll, TestPluginCache.DiscoverTestExtensions: Discovering the extensions using allExtensionPaths: C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.829, 3864999051301, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.102\Extensions,C:\Program Files\dotnet\sdk\6.0.102
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.829, 3864999051881, datacollector.dll, AssemblyResolver.AddSearchDirectories: Adding more searchDirectories C:\Program Files\dotnet\sdk\6.0.102\Extensions,C:\Program Files\dotnet\sdk\6.0.102
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.830, 3864999056278, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Resolving assembly.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.830, 3864999057102, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.102\Extensions'.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.830, 3864999065567, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.BlameDataCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll'.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.831, 3864999075754, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.BlameDataCollector, from path: C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll
+TpTrace Error: 0 : 26048, 1, 2022/03/22, 12:37:18.836, 3864999118196, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.837, 3864999130201, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Resolving assembly.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.837, 3864999131073, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Searching in: 'C:\Program Files\dotnet\sdk\6.0.102\Extensions'.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.838, 3864999139001, datacollector.dll, AssemblyResolver.OnResolve: Microsoft.TestPlatform.Extensions.EventLogCollector: Loading assembly 'C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.838, 3864999145661, datacollector.dll, AssemblyResolver.OnResolve: Resolved assembly: Microsoft.TestPlatform.Extensions.EventLogCollector, from path: C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll
+TpTrace Error: 0 : 26048, 1, 2022/03/22, 12:37:18.841, 3864999170159, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.EventLogCollector.EventLogDataCollector" defined in "Microsoft.TestPlatform.Extensions.EventLogCollector.dll" does not have ExtensionUri attribute.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.841, 3864999173946, datacollector.dll, TestPluginCache: Discovered the extensions using extension path 'C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.BlameDataCollector.dll,C:\Program Files\dotnet\sdk\6.0.102\Extensions\Microsoft.TestPlatform.Extensions.EventLogCollector.dll'.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.841, 3864999174499, datacollector.dll, TestPluginCache: Discoverers are ''.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.841, 3864999174710, datacollector.dll, TestPluginCache: Executors are ''.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.841, 3864999174905, datacollector.dll, TestPluginCache: Executors2 are ''.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.841, 3864999175094, datacollector.dll, TestPluginCache: Setting providers are ''.
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:18.841, 3864999175359, datacollector.dll, TestPluginCache: Loggers are ''.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.843, 3864999187573, datacollector.dll, TestPluginManager.CreateTestExtension: Attempting to load test extension: Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Error: 0 : 26048, 1, 2022/03/22, 12:37:18.843, 3864999190377, datacollector.dll, The type "Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector" defined in "Microsoft.TestPlatform.Extensions.BlameDataCollector.dll" does not have ExtensionUri attribute.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.849, 3864999249896, datacollector.dll, Listening on Endpoint : 127.0.0.1:53003
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.857, 3864999330466, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection started.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:18.878, 3864999543204, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.TestHostLaunched) -> {
+  "ProcessId": 31668
+}
+TpTrace Information: 0 : 26048, 5, 2022/03/22, 12:37:19.118, 3865001943521, datacollector.dll, Using the buffer size of 16384 bytes
+TpTrace Information: 0 : 26048, 5, 2022/03/22, 12:37:19.118, 3865001944872, datacollector.dll, Accepted Client request and set the flag
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.305, 3865013806862, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.319, 3865013952228, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.320, 3865013958313, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "samuel", expected: False) - 6816dde0-54f7-ff47-717e-b591d946459f' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.321, 3865013971808, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.322, 3865013977473, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.322, 3865013979780, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.TransactionImplementationTest.ShouldAddTransactionWhenThereIsError - 25550727-8963-0440-984b-63808d2fd944' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.323, 3865013988806, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.323, 3865013993106, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.323, 3865013995046, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldAddCustomerWhenThereIsError - 13f23135-d99b-47f1-004d-e454edf732f2' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.325, 3865014015221, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.326, 3865014020282, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.326, 3865014022501, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldAddAccountWhenThereIsError - daef161b-87ef-e689-6b9f-6fe502a642af' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.335, 3865014115493, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.341, 3865014168855, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.345, 3865014215810, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "samuel", expected: False) - 6816dde0-54f7-ff47-717e-b591d946459f' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.359, 3865014353286, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.360, 3865014358832, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.360, 3865014361226, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "Samuel7413#$", expected: True) - 2fdd8c1d-da53-e7b1-4fc5-682266b4e9d7' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.361, 3865014372048, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.362, 3865014376685, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.362, 3865014378994, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "Samuel7413#$", expected: True) - 2fdd8c1d-da53-e7b1-4fc5-682266b4e9d7' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.363, 3865014389827, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.363, 3865014393841, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.363, 3865014395444, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "samuel74", expected: False) - 9f510a47-7317-3c73-420d-0056a2a79666' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.364, 3865014404238, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.365, 3865014408162, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.365, 3865014409855, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "samuel74", expected: False) - 9f510a47-7317-3c73-420d-0056a2a79666' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.366, 3865014419216, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.366, 3865014423432, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.366, 3865014425003, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "Samuel7413#", expected: True) - 12b05ab9-eae1-1d85-85d9-1e32ae98545c' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.367, 3865014433831, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.368, 3865014437906, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.368, 3865014439830, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidPassword(password: "Samuel7413#", expected: True) - 12b05ab9-eae1-1d85-85d9-1e32ae98545c' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.369, 3865014450317, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.369, 3865014454514, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.370, 3865014456507, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "SAMUEL", expected: True) - b1328dc5-8d57-2b82-0365-db81fc27589d' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.370, 3865014464819, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.371, 3865014468597, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.371, 3865014470499, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "SAMUEL", expected: True) - b1328dc5-8d57-2b82-0365-db81fc27589d' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.372, 3865014479226, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.372, 3865014483149, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.372, 3865014484827, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "sAmuel", expected: False) - f7af8314-37bd-454b-0d13-e61c463a74a9' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.373, 3865014494433, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.374, 3865014497930, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.374, 3865014499416, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "sAmuel", expected: False) - f7af8314-37bd-454b-0d13-e61c463a74a9' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.421, 3865014971513, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.421, 3865014975347, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.422, 3865014976706, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "samuel", expected: False) - a0b410d6-4d8f-c0ed-dd25-1234c4dd53aa' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.423, 3865014986520, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.423, 3865014991254, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.423, 3865014993506, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "samuel", expected: False) - a0b410d6-4d8f-c0ed-dd25-1234c4dd53aa' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.425, 3865015006295, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.425, 3865015010415, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.425, 3865015012373, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "Samuel", expected: True) - afc418b6-1872-c8af-253e-53449bf6fc06' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.426, 3865015021329, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.426, 3865015024710, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.427, 3865015026137, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateLastName(name: "Samuel", expected: True) - afc418b6-1872-c8af-253e-53449bf6fc06' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.427, 3865015035860, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.428, 3865015039351, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.428, 3865015040666, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel@karonwi@gmail.com", expected: False) - fa289b75-be87-f928-1578-c0768bdd9f93' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.429, 3865015047555, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.429, 3865015049876, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.429, 3865015051087, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel@karonwi@gmail.com", expected: False) - fa289b75-be87-f928-1578-c0768bdd9f93' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.430, 3865015058256, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.430, 3865015061105, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.430, 3865015062172, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel.karonwi.gmail.com", expected: False) - 307f9c3f-b736-41f3-d0aa-d3a97e6db28a' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.431, 3865015068120, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.431, 3865015070648, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.431, 3865015071948, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel.karonwi.gmail.com", expected: False) - 307f9c3f-b736-41f3-d0aa-d3a97e6db28a' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.432, 3865015079271, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.432, 3865015083046, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.432, 3865015084597, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuelkaronwi@gmail.com", expected: True) - 24902cb1-1fd6-5712-31de-9347b5069954' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.433, 3865015089969, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.433, 3865015092230, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.433, 3865015093407, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuelkaronwi@gmail.com", expected: True) - 24902cb1-1fd6-5712-31de-9347b5069954' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.434, 3865015101591, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.434, 3865015103793, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.434, 3865015104846, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel.karonwi@gmail.uk", expected: True) - 461a42ed-2e35-5e0f-2db0-c1afe8e4bdfc' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.440, 3865015157651, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.440, 3865015161361, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.440, 3865015163071, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel.karonwi@gmail.uk", expected: True) - 461a42ed-2e35-5e0f-2db0-c1afe8e4bdfc' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.441, 3865015172381, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.441, 3865015175189, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.442, 3865015176716, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel.karonwi@gmail.com", expected: True) - 3e296a00-f5b0-3826-a3cf-ef4fd3e3e334' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.442, 3865015184637, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.443, 3865015188033, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.443, 3865015189699, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateEmail(email: "samuel.karonwi@gmail.com", expected: True) - 3e296a00-f5b0-3826-a3cf-ef4fd3e3e334' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.444, 3865015199069, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.444, 3865015202893, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.444, 3865015204536, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateFirstName(name: "KAronwi", expected: True) - 7c89cfe4-f487-388e-b28d-1c60d7650103' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.445, 3865015213276, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.446, 3865015216993, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.446, 3865015218744, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateFirstName(name: "KAronwi", expected: True) - 7c89cfe4-f487-388e-b28d-1c60d7650103' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.447, 3865015228808, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.447, 3865015232751, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.447, 3865015234332, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateFirstName(name: "Karonwi", expected: True) - 1ad9bac6-2ba5-4efa-b2be-5e45194b0962' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.448, 3865015242336, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.448, 3865015245143, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.449, 3865015246376, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateFirstName(name: "Karonwi", expected: True) - 1ad9bac6-2ba5-4efa-b2be-5e45194b0962' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.452, 3865015276528, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.452, 3865015280637, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.452, 3865015282356, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateFirstName(name: "karonwi", expected: False) - 32b658ad-768f-44f6-22b4-34cf9d2de368' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.453, 3865015290383, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.453, 3865015293962, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.453, 3865015295762, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.ValidationTest.ShouldValidateFirstName(name: "karonwi", expected: False) - 32b658ad-768f-44f6-22b4-34cf9d2de368' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.472, 3865015478591, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.472, 3865015483209, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.472, 3865015485307, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldAddAccountWhenThereIsError - daef161b-87ef-e689-6b9f-6fe502a642af' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.473, 3865015494596, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.474, 3865015498675, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.474, 3865015500911, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldAddCustomerWhenThereIsError - 13f23135-d99b-47f1-004d-e454edf732f2' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.475, 3865015513733, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.476, 3865015517706, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.476, 3865015519484, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.TransactionImplementationTest.ShouldAddTransactionWhenThereIsError - 25550727-8963-0440-984b-63808d2fd944' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.477, 3865015531330, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.477, 3865015534738, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.478, 3865015536245, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldReturnCustomerWhenIdIsNotCorrect - 4cf83c4f-fc04-fd09-2ef6-292da45a2e15' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.478, 3865015542036, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.478, 3865015544900, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.479, 3865015546167, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldThrowExceptionWhenAllAccount - de6e477e-53a5-1274-8396-ca3af9153d99' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.479, 3865015554299, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.480, 3865015557843, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.480, 3865015559523, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.TransactionImplementationTest.ShouldAddTransactionWhenNoError - 653cc92f-f1d4-8c82-54b0-c3ad90c26f5f' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.481, 3865015567664, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.481, 3865015571109, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.481, 3865015572797, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldThrowExceptionWhenAllAccount - de6e477e-53a5-1274-8396-ca3af9153d99' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.482, 3865015581035, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.482, 3865015584570, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.483, 3865015586046, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldAddAccountWhenNoError - 4f7367bf-698b-0cc0-9635-e2d4b753618e' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.483, 3865015593711, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.484, 3865015596561, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.484, 3865015597969, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldReturnCustomerWhenIdIsNotCorrect - 4cf83c4f-fc04-fd09-2ef6-292da45a2e15' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.484, 3865015605311, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.485, 3865015608818, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.485, 3865015610506, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldAddCustomerWhenNoError - e40145b9-366a-d257-4dc3-ed6a9861fc45' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.486, 3865015616225, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.486, 3865015618818, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.486, 3865015619935, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.TransactionImplementationTest.ShouldAddTransactionWhenNoError - 653cc92f-f1d4-8c82-54b0-c3ad90c26f5f' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.486, 3865015625496, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.487, 3865015627670, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.487, 3865015628740, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldAddAccountWhenNoError - 4f7367bf-698b-0cc0-9635-e2d4b753618e' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.487, 3865015633667, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.487, 3865015635726, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.488, 3865015636620, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldAddCustomerWhenNoError - e40145b9-366a-d257-4dc3-ed6a9861fc45' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.489, 3865015653343, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.490, 3865015656153, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.490, 3865015657253, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldGetAllAccounts - e6c25b2d-1461-4239-a589-5f00aa0d89ac' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.490, 3865015664298, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.491, 3865015668160, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.491, 3865015669764, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldGetAllCustomers - 8ebf7e0c-1afa-34b5-6fc2-85625c1250d6' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.492, 3865015678752, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.492, 3865015682060, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.492, 3865015683489, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.TransactionImplementationTest.ShouldGetAllTransaction - 90e8e597-ba6f-2a02-3deb-cdad0c005f62' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.495, 3865015707128, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.495, 3865015711043, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.495, 3865015712713, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.TransactionImplementationTest.ShouldGetAllTransaction - 90e8e597-ba6f-2a02-3deb-cdad0c005f62' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.497, 3865015726038, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.497, 3865015729154, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.497, 3865015730377, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.AccountImplementationTest.ShouldGetAllAccounts - e6c25b2d-1461-4239-a589-5f00aa0d89ac' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.498, 3865015740173, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.498, 3865015744275, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.498, 3865015745881, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldGetAllCustomers - 8ebf7e0c-1afa-34b5-6fc2-85625c1250d6' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.499, 3865015752497, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.499, 3865015754931, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.499, 3865015755924, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldReturnCustomerWhenIdIsCorrect - 6ca480a7-0773-9078-e033-ddb9348284db' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.500, 3865015760796, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.500, 3865015763389, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.500, 3865015764663, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldReturnCustomerWhenIdIsCorrect - 6ca480a7-0773-9078-e033-ddb9348284db' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.501, 3865015772240, datacollector.dll, DataCollectionTestCaseEventHandler: Test case starting.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.501, 3865015774156, datacollector.dll, Blame Collector : Test Case Start
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.501, 3865015774945, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldThrowExceptionAllCustomerWhenWrongJsonParam - 05ce334a-aab6-88c0-6cd7-76d3414447b5' started.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.502, 3865015780151, datacollector.dll, DataCollectionTestCaseEventHandler : Test case completing.
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.502, 3865015782416, datacollector.dll, Blame Collector : Test Case End
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.502, 3865015784170, datacollector.dll, DataCollectionTestCaseEventHandler: Test case 'BankApp.Test.CustomerImplementationTest.ShouldThrowExceptionAllCustomerWhenWrongJsonParam - 05ce334a-aab6-88c0-6cd7-76d3414447b5' completed
+TpTrace Information: 0 : 26048, 8, 2022/03/22, 12:37:20.512, 3865015877833, datacollector.dll, DataCollectionTestCaseEventHandler: Test session ended
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.587, 3865016627644, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Datacollector received message: (DataCollection.AfterTestRunEnd) -> false
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.587, 3865016633974, datacollector.dll, Blame Collector : Session End
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.587, 3865016634651, datacollector.dll, BlameCollector.CollectDumpAndAbortTesthost: Custom path to dump directory was provided via VSTEST_DUMP_PATH. Skipping attachment upload, the caller is responsible for collecting and uploading the dumps themselves.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.588, 3865016635964, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins called
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:20.588, 3865016636380, datacollector.dll, DataCollectionManager.CleanupPlugins: Cleaning up 1 plugins
+TpTrace Verbose: 0 : 26048, 1, 2022/03/22, 12:37:20.588, 3865016637606, datacollector.dll, dataCollectorInfo.DisposeDataCollector: calling Dispose() on Microsoft.TestPlatform.Extensions.BlameDataCollector.BlameCollector
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.588, 3865016638278, datacollector.dll, DataCollectionManager.CleanupPlugins: CleanupPlugins finished
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.590, 3865016665007, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : Session End message received from server. Closing the connection.
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.591, 3865016667581, datacollector.dll, Closing the connection !
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.591, 3865016668016, datacollector.dll, DataCollectionRequestHandler.ProcessRequests : DataCollection completed
+TpTrace Information: 0 : 26048, 1, 2022/03/22, 12:37:20.591, 3865016668256, datacollector.dll, Program.Main: exiting datacollector process.

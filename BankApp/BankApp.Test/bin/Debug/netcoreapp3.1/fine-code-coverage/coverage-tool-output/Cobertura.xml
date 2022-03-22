@@ -1,0 +1,1445 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.6043737574552683" branch-rate="0.25925925925925924" lines-covered="304" lines-valid="503" branches-covered="14" branches-valid="54" complexity="116" version="0" timestamp="1647952641">
+  <sources>
+    <source>C:\Users\hp\</source>
+  </sources>
+  <packages>
+    <package name="BankApp.Commons" line-rate="0.24" branch-rate="0.2" complexity="15">
+      <classes>
+        <class name="BankApp.Commons.ReadWriteToJson" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Commons\ReadWriteToJson.cs" line-rate="0" branch-rate="0" complexity="6">
+          <methods>
+            <method name=".ctor" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="ReadJson" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="29" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateJson" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="WriteJson" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="58" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="29" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="58" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Commons.Utilities" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Commons\Utilities.cs" line-rate="0" branch-rate="0" complexity="4">
+          <methods>
+            <method name="ComputeSha256Hash" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="12" hits="0" branch="false" />
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="15" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+                <line number="21" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="RandomDigits" signature="(...)" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="29" hits="0" branch="false" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="0" branch="false" />
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="15" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Commons.Validators" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Commons\Validators.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="CheckName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="7" branch="false" />
+                <line number="13" hits="7" branch="false" />
+                <line number="15" hits="7" branch="false" />
+                <line number="16" hits="7" branch="false" />
+              </lines>
+            </method>
+            <method name="CheckEmail" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="19" hits="5" branch="false" />
+                <line number="20" hits="5" branch="false" />
+                <line number="21" hits="5" branch="false" />
+                <line number="23" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="CheckPassword" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="26" hits="4" branch="false" />
+                <line number="28" hits="4" branch="false" />
+                <line number="29" hits="4" branch="false" />
+                <line number="30" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="PerformRegEx" signature="(...)" line-rate="1" branch-rate="1" complexity="2">
+              <lines>
+                <line number="34" hits="16" branch="false" />
+                <line number="35" hits="16" branch="false" />
+                <line number="38" hits="16" branch="true" condition-coverage="100% (2/2)" />
+                <line number="39" hits="9" branch="false" />
+                <line number="41" hits="7" branch="false" />
+                <line number="42" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="7" branch="false" />
+            <line number="13" hits="7" branch="false" />
+            <line number="15" hits="7" branch="false" />
+            <line number="16" hits="7" branch="false" />
+            <line number="19" hits="5" branch="false" />
+            <line number="20" hits="5" branch="false" />
+            <line number="21" hits="5" branch="false" />
+            <line number="23" hits="5" branch="false" />
+            <line number="26" hits="4" branch="false" />
+            <line number="28" hits="4" branch="false" />
+            <line number="29" hits="4" branch="false" />
+            <line number="30" hits="4" branch="false" />
+            <line number="34" hits="16" branch="false" />
+            <line number="35" hits="16" branch="false" />
+            <line number="38" hits="16" branch="true" condition-coverage="100% (2/2)" />
+            <line number="39" hits="9" branch="false" />
+            <line number="41" hits="7" branch="false" />
+            <line number="42" hits="16" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="BankApp.Implementation" line-rate="0.36619718309859156" branch-rate="0.2727272727272727" complexity="56">
+      <classes>
+        <class name="BankApp.Implementation.AccountImplementation" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Implementation\AccountImplementation.cs" line-rate="0.34545454545454546" branch-rate="0" complexity="19">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="4" branch="false" />
+                <line number="15" hits="4" branch="false" />
+                <line number="16" hits="4" branch="false" />
+                <line number="17" hits="4" branch="false" />
+                <line number="18" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="AddAccount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="69" hits="2" branch="false" />
+                <line number="71" hits="2" branch="false" />
+                <line number="72" hits="2" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="75" hits="1" branch="false" />
+                <line number="76" hits="1" branch="false" />
+                <line number="78" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAccountDetails" signature="()" line-rate="0" branch-rate="0" complexity="4">
+              <lines>
+                <line number="81" hits="0" branch="false" />
+                <line number="82" hits="0" branch="false" />
+                <line number="83" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="84" hits="0" branch="false" />
+                <line number="85" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="86" hits="0" branch="false" />
+                <line number="87" hits="0" branch="false" />
+                <line number="89" hits="0" branch="false" />
+                <line number="90" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllAccountByCustomer" signature="()" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="50" hits="0" branch="false" />
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="54" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="63" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllAccounts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="24" hits="2" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="UpdateAccount" signature="()" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="43" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="4" branch="false" />
+            <line number="15" hits="4" branch="false" />
+            <line number="16" hits="4" branch="false" />
+            <line number="17" hits="4" branch="false" />
+            <line number="18" hits="4" branch="false" />
+            <line number="21" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="24" hits="2" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="43" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="54" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="63" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="71" hits="2" branch="false" />
+            <line number="72" hits="2" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="75" hits="1" branch="false" />
+            <line number="76" hits="1" branch="false" />
+            <line number="78" hits="1" branch="false" />
+            <line number="81" hits="0" branch="false" />
+            <line number="82" hits="0" branch="false" />
+            <line number="83" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="84" hits="0" branch="false" />
+            <line number="85" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="86" hits="0" branch="false" />
+            <line number="87" hits="0" branch="false" />
+            <line number="89" hits="0" branch="false" />
+            <line number="90" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Implementation.AccountOperation" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Implementation\AccountOperation.cs" line-rate="0" branch-rate="0" complexity="11">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+                <line number="20" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Deposit" signature="()" line-rate="0" branch-rate="0" complexity="2">
+              <lines>
+                <line number="23" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="27" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="30" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="33" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="35" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+                <line number="37" hits="0" branch="false" />
+                <line number="38" hits="0" branch="false" />
+                <line number="39" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="false" />
+                <line number="46" hits="0" branch="false" />
+                <line number="48" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="Withdraw" signature="()" line-rate="0" branch-rate="0" complexity="8">
+              <lines>
+                <line number="51" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="54" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="57" hits="0" branch="false" />
+                <line number="58" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="59" hits="0" branch="false" />
+                <line number="60" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="63" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="67" hits="0" branch="false" />
+                <line number="68" hits="0" branch="false" />
+                <line number="69" hits="0" branch="false" />
+                <line number="70" hits="0" branch="false" />
+                <line number="71" hits="0" branch="false" />
+                <line number="72" hits="0" branch="false" />
+                <line number="73" hits="0" branch="false" />
+                <line number="74" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="75" hits="0" branch="false" />
+                <line number="76" hits="0" branch="false" />
+                <line number="77" hits="0" branch="false" />
+                <line number="78" hits="0" branch="false" />
+                <line number="79" hits="0" branch="false" />
+                <line number="80" hits="0" branch="false" />
+                <line number="81" hits="0" branch="false" />
+                <line number="84" hits="0" branch="false" />
+                <line number="85" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="20" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="27" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="30" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="33" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="35" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="37" hits="0" branch="false" />
+            <line number="38" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="false" />
+            <line number="46" hits="0" branch="false" />
+            <line number="48" hits="0" branch="false" />
+            <line number="51" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="54" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="57" hits="0" branch="false" />
+            <line number="58" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="59" hits="0" branch="false" />
+            <line number="60" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="63" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="67" hits="0" branch="false" />
+            <line number="68" hits="0" branch="false" />
+            <line number="69" hits="0" branch="false" />
+            <line number="70" hits="0" branch="false" />
+            <line number="71" hits="0" branch="false" />
+            <line number="72" hits="0" branch="false" />
+            <line number="73" hits="0" branch="false" />
+            <line number="74" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="75" hits="0" branch="false" />
+            <line number="76" hits="0" branch="false" />
+            <line number="77" hits="0" branch="false" />
+            <line number="78" hits="0" branch="false" />
+            <line number="79" hits="0" branch="false" />
+            <line number="80" hits="0" branch="false" />
+            <line number="81" hits="0" branch="false" />
+            <line number="84" hits="0" branch="false" />
+            <line number="85" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Implementation.CustomerImplementation" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Implementation\CustomerImplementation.cs" line-rate="1" branch-rate="1" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="6" branch="false" />
+                <line number="15" hits="6" branch="false" />
+                <line number="16" hits="6" branch="false" />
+                <line number="17" hits="6" branch="false" />
+                <line number="18" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="AddCustomer" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="32" hits="2" branch="false" />
+                <line number="34" hits="2" branch="false" />
+                <line number="35" hits="2" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllCustomers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetCustomerById" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="44" hits="2" branch="false" />
+                <line number="45" hits="2" branch="false" />
+                <line number="46" hits="2" branch="true" condition-coverage="100% (2/2)" />
+                <line number="47" hits="2" branch="false" />
+                <line number="48" hits="11" branch="true" condition-coverage="100% (2/2)" />
+                <line number="49" hits="3" branch="false" />
+                <line number="50" hits="3" branch="true" condition-coverage="100% (2/2)" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="54" hits="2" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="57" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="6" branch="false" />
+            <line number="15" hits="6" branch="false" />
+            <line number="16" hits="6" branch="false" />
+            <line number="17" hits="6" branch="false" />
+            <line number="18" hits="6" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="32" hits="2" branch="false" />
+            <line number="34" hits="2" branch="false" />
+            <line number="35" hits="2" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="44" hits="2" branch="false" />
+            <line number="45" hits="2" branch="false" />
+            <line number="46" hits="2" branch="true" condition-coverage="100% (2/2)" />
+            <line number="47" hits="2" branch="false" />
+            <line number="48" hits="11" branch="true" condition-coverage="100% (2/2)" />
+            <line number="49" hits="3" branch="false" />
+            <line number="50" hits="3" branch="true" condition-coverage="100% (2/2)" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="54" hits="2" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="57" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Implementation.CustomerRoleImplementation" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Implementation\CustomerRoleImplementation.cs" line-rate="0" branch-rate="0" complexity="9">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="0" branch="false" />
+                <line number="14" hits="0" branch="false" />
+                <line number="16" hits="0" branch="false" />
+                <line number="17" hits="0" branch="false" />
+                <line number="18" hits="0" branch="false" />
+                <line number="19" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="AddUserToRole" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="21" hits="0" branch="false" />
+                <line number="22" hits="0" branch="false" />
+                <line number="23" hits="0" branch="false" />
+                <line number="24" hits="0" branch="false" />
+                <line number="25" hits="0" branch="false" />
+                <line number="26" hits="0" branch="false" />
+                <line number="28" hits="0" branch="false" />
+                <line number="29" hits="0" branch="false" />
+                <line number="31" hits="0" branch="false" />
+                <line number="32" hits="0" branch="false" />
+                <line number="34" hits="0" branch="false" />
+                <line number="36" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllRoles" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="0" branch="false" />
+                <line number="61" hits="0" branch="false" />
+                <line number="62" hits="0" branch="false" />
+                <line number="64" hits="0" branch="false" />
+                <line number="65" hits="0" branch="false" />
+                <line number="66" hits="0" branch="false" />
+                <line number="68" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="GetUserRoles" signature="()" line-rate="0" branch-rate="0" complexity="6">
+              <lines>
+                <line number="39" hits="0" branch="false" />
+                <line number="40" hits="0" branch="false" />
+                <line number="41" hits="0" branch="false" />
+                <line number="42" hits="0" branch="false" />
+                <line number="43" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="44" hits="0" branch="false" />
+                <line number="45" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="46" hits="0" branch="false" />
+                <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
+                <line number="48" hits="0" branch="false" />
+                <line number="49" hits="0" branch="false" />
+                <line number="50" hits="0" branch="false" />
+                <line number="52" hits="0" branch="false" />
+                <line number="53" hits="0" branch="false" />
+                <line number="55" hits="0" branch="false" />
+                <line number="56" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="0" branch="false" />
+            <line number="14" hits="0" branch="false" />
+            <line number="16" hits="0" branch="false" />
+            <line number="17" hits="0" branch="false" />
+            <line number="18" hits="0" branch="false" />
+            <line number="19" hits="0" branch="false" />
+            <line number="21" hits="0" branch="false" />
+            <line number="22" hits="0" branch="false" />
+            <line number="23" hits="0" branch="false" />
+            <line number="24" hits="0" branch="false" />
+            <line number="25" hits="0" branch="false" />
+            <line number="26" hits="0" branch="false" />
+            <line number="28" hits="0" branch="false" />
+            <line number="29" hits="0" branch="false" />
+            <line number="31" hits="0" branch="false" />
+            <line number="32" hits="0" branch="false" />
+            <line number="34" hits="0" branch="false" />
+            <line number="36" hits="0" branch="false" />
+            <line number="39" hits="0" branch="false" />
+            <line number="40" hits="0" branch="false" />
+            <line number="41" hits="0" branch="false" />
+            <line number="42" hits="0" branch="false" />
+            <line number="43" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="44" hits="0" branch="false" />
+            <line number="45" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="46" hits="0" branch="false" />
+            <line number="47" hits="0" branch="true" condition-coverage="0% (0/2)" />
+            <line number="48" hits="0" branch="false" />
+            <line number="49" hits="0" branch="false" />
+            <line number="50" hits="0" branch="false" />
+            <line number="52" hits="0" branch="false" />
+            <line number="53" hits="0" branch="false" />
+            <line number="55" hits="0" branch="false" />
+            <line number="56" hits="0" branch="false" />
+            <line number="59" hits="0" branch="false" />
+            <line number="61" hits="0" branch="false" />
+            <line number="62" hits="0" branch="false" />
+            <line number="64" hits="0" branch="false" />
+            <line number="65" hits="0" branch="false" />
+            <line number="66" hits="0" branch="false" />
+            <line number="68" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Implementation.TransactionImplementation" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Implementation\TransactionImplementation.cs" line-rate="1" branch-rate="1" complexity="8">
+          <methods>
+            <method name=".ctor" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="3" branch="false" />
+                <line number="15" hits="3" branch="false" />
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="false" />
+                <line number="18" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="AddTransaction" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="20" hits="2" branch="false" />
+                <line number="22" hits="2" branch="false" />
+                <line number="23" hits="2" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAllTransactionsForAnAccount" signature="()" line-rate="1" branch-rate="1" complexity="6">
+              <lines>
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="5" branch="true" condition-coverage="100% (2/2)" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="true" condition-coverage="100% (2/2)" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="48" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="13" hits="3" branch="false" />
+            <line number="15" hits="3" branch="false" />
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="false" />
+            <line number="18" hits="3" branch="false" />
+            <line number="20" hits="2" branch="false" />
+            <line number="22" hits="2" branch="false" />
+            <line number="23" hits="2" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="5" branch="true" condition-coverage="100% (2/2)" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="true" condition-coverage="100% (2/2)" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="48" hits="1" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="BankApp.Models" line-rate="0.7" branch-rate="1" complexity="20">
+      <classes>
+        <class name="BankApp.Models.Account" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\Account.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="get_CustomerId" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_AccountNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Balance" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_AccountType" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="3" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="3" branch="false" />
+            <line number="10" hits="3" branch="false" />
+            <line number="12" hits="3" branch="false" />
+            <line number="14" hits="3" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Models.Customer" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\Customer.cs" line-rate="0.8333333333333334" branch-rate="1" complexity="6">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="12" branch="false" />
+              </lines>
+            </method>
+            <method name="get_FullName" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Email" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Password" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="9" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Created_at" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="19" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Accounts" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="12" branch="false" />
+            <line number="10" hits="9" branch="false" />
+            <line number="11" hits="9" branch="false" />
+            <line number="12" hits="9" branch="false" />
+            <line number="13" hits="19" branch="false" />
+            <line number="15" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Models.CustomerInRoles" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\UserInRoles.cs" line-rate="0" branch-rate="1" complexity="2">
+          <methods>
+            <method name="get_RoleId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_CustomerId" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Models.Roles" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\Roles.cs" line-rate="0" branch-rate="1" complexity="3">
+          <methods>
+            <method name="get_Id" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_RoleName" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="10" hits="0" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="0" branch="false" />
+            <line number="10" hits="0" branch="false" />
+            <line number="11" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Models.Transaction" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\Transaction.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="get_AccountNumber" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="9" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Description" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="11" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Amount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="13" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Balance" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="2" branch="false" />
+              </lines>
+            </method>
+            <method name="get_Date" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="15" hits="5" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="9" hits="3" branch="false" />
+            <line number="11" hits="2" branch="false" />
+            <line number="13" hits="2" branch="false" />
+            <line number="14" hits="2" branch="false" />
+            <line number="15" hits="5" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+    <package name="BankApp.Test" line-rate="0.9948717948717949" branch-rate="1" complexity="25">
+      <classes>
+        <class name="AutoGeneratedProgram" filename="C:\Users\hp\.nuget\packages\microsoft.net.test.sdk\17.1.0\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
+          <methods>
+            <method name="Main" signature="(...)" line-rate="0" branch-rate="1" complexity="1">
+              <lines>
+                <line number="4" hits="0" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="4" hits="0" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Test.AccountImplementationTest" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp\BankApp.Test\AccountImplementationTest.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="ShouldAddAccountWhenThereIsError" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+                <line number="46" hits="2" branch="false" />
+                <line number="48" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldThrowExceptionWhenAllAccount" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="64" hits="1" branch="false" />
+                <line number="65" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="67" hits="1" branch="false" />
+                <line number="69" hits="2" branch="false" />
+                <line number="71" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="4" branch="false" />
+                <line number="17" hits="4" branch="false" />
+                <line number="18" hits="4" branch="false" />
+                <line number="19" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldAddAccountWhenNoError" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldGetAllAccounts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="4" branch="false" />
+            <line number="17" hits="4" branch="false" />
+            <line number="18" hits="4" branch="false" />
+            <line number="19" hits="4" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="46" hits="2" branch="false" />
+            <line number="48" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="65" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="69" hits="2" branch="false" />
+            <line number="71" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Test.CustomerImplementationTest" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp\BankApp.Test\CustomerImplementationTest.cs" line-rate="1" branch-rate="1" complexity="7">
+          <methods>
+            <method name="ShouldThrowExceptionAllCustomerWhenWrongJsonParam" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="44" hits="2" branch="false" />
+                <line number="46" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldAddCustomerWhenThereIsError" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="67" hits="1" branch="false" />
+                <line number="68" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+                <line number="70" hits="1" branch="false" />
+                <line number="71" hits="1" branch="false" />
+                <line number="73" hits="1" branch="false" />
+                <line number="74" hits="1" branch="false" />
+                <line number="76" hits="2" branch="false" />
+                <line number="77" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="6" branch="false" />
+                <line number="17" hits="6" branch="false" />
+                <line number="18" hits="6" branch="false" />
+                <line number="19" hits="6" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldAddCustomerWhenNoError" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="50" hits="1" branch="false" />
+                <line number="51" hits="1" branch="false" />
+                <line number="52" hits="1" branch="false" />
+                <line number="53" hits="1" branch="false" />
+                <line number="54" hits="1" branch="false" />
+                <line number="55" hits="1" branch="false" />
+                <line number="56" hits="1" branch="false" />
+                <line number="58" hits="1" branch="false" />
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="62" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldGetAllCustomers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="32" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldReturnCustomerWhenIdIsCorrect" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="81" hits="1" branch="false" />
+                <line number="82" hits="1" branch="false" />
+                <line number="83" hits="1" branch="false" />
+                <line number="85" hits="1" branch="false" />
+                <line number="86" hits="1" branch="false" />
+                <line number="88" hits="1" branch="false" />
+                <line number="89" hits="1" branch="false" />
+                <line number="90" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldReturnCustomerWhenIdIsNotCorrect" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="94" hits="1" branch="false" />
+                <line number="95" hits="1" branch="false" />
+                <line number="96" hits="1" branch="false" />
+                <line number="98" hits="1" branch="false" />
+                <line number="99" hits="1" branch="false" />
+                <line number="101" hits="1" branch="false" />
+                <line number="102" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="6" branch="false" />
+            <line number="17" hits="6" branch="false" />
+            <line number="18" hits="6" branch="false" />
+            <line number="19" hits="6" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="32" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="44" hits="2" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="51" hits="1" branch="false" />
+            <line number="52" hits="1" branch="false" />
+            <line number="53" hits="1" branch="false" />
+            <line number="54" hits="1" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="56" hits="1" branch="false" />
+            <line number="58" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="62" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="67" hits="1" branch="false" />
+            <line number="68" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+            <line number="70" hits="1" branch="false" />
+            <line number="71" hits="1" branch="false" />
+            <line number="73" hits="1" branch="false" />
+            <line number="74" hits="1" branch="false" />
+            <line number="76" hits="2" branch="false" />
+            <line number="77" hits="1" branch="false" />
+            <line number="81" hits="1" branch="false" />
+            <line number="82" hits="1" branch="false" />
+            <line number="83" hits="1" branch="false" />
+            <line number="85" hits="1" branch="false" />
+            <line number="86" hits="1" branch="false" />
+            <line number="88" hits="1" branch="false" />
+            <line number="89" hits="1" branch="false" />
+            <line number="90" hits="1" branch="false" />
+            <line number="94" hits="1" branch="false" />
+            <line number="95" hits="1" branch="false" />
+            <line number="96" hits="1" branch="false" />
+            <line number="98" hits="1" branch="false" />
+            <line number="99" hits="1" branch="false" />
+            <line number="101" hits="1" branch="false" />
+            <line number="102" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Test.Helper" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp\BankApp.Test\Helper.cs" line-rate="1" branch-rate="1" complexity="3">
+          <methods>
+            <method name="GetCustomers" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="12" hits="4" branch="false" />
+                <line number="13" hits="4" branch="false" />
+                <line number="14" hits="4" branch="false" />
+                <line number="15" hits="4" branch="false" />
+                <line number="16" hits="4" branch="false" />
+                <line number="17" hits="4" branch="false" />
+                <line number="18" hits="4" branch="false" />
+                <line number="19" hits="4" branch="false" />
+                <line number="20" hits="4" branch="false" />
+                <line number="21" hits="4" branch="false" />
+                <line number="22" hits="4" branch="false" />
+                <line number="23" hits="4" branch="false" />
+                <line number="24" hits="4" branch="false" />
+                <line number="25" hits="4" branch="false" />
+                <line number="26" hits="4" branch="false" />
+                <line number="27" hits="4" branch="false" />
+                <line number="28" hits="4" branch="false" />
+                <line number="29" hits="4" branch="false" />
+                <line number="30" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="GetTransactions" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="36" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="39" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+                <line number="41" hits="1" branch="false" />
+                <line number="42" hits="1" branch="false" />
+                <line number="43" hits="1" branch="false" />
+                <line number="44" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="GetAccounts" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="47" hits="2" branch="false" />
+                <line number="48" hits="2" branch="false" />
+                <line number="49" hits="2" branch="false" />
+                <line number="50" hits="2" branch="false" />
+                <line number="51" hits="2" branch="false" />
+                <line number="52" hits="2" branch="false" />
+                <line number="53" hits="2" branch="false" />
+                <line number="54" hits="2" branch="false" />
+                <line number="55" hits="2" branch="false" />
+                <line number="56" hits="2" branch="false" />
+                <line number="57" hits="2" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="12" hits="4" branch="false" />
+            <line number="13" hits="4" branch="false" />
+            <line number="14" hits="4" branch="false" />
+            <line number="15" hits="4" branch="false" />
+            <line number="16" hits="4" branch="false" />
+            <line number="17" hits="4" branch="false" />
+            <line number="18" hits="4" branch="false" />
+            <line number="19" hits="4" branch="false" />
+            <line number="20" hits="4" branch="false" />
+            <line number="21" hits="4" branch="false" />
+            <line number="22" hits="4" branch="false" />
+            <line number="23" hits="4" branch="false" />
+            <line number="24" hits="4" branch="false" />
+            <line number="25" hits="4" branch="false" />
+            <line number="26" hits="4" branch="false" />
+            <line number="27" hits="4" branch="false" />
+            <line number="28" hits="4" branch="false" />
+            <line number="29" hits="4" branch="false" />
+            <line number="30" hits="4" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="36" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="39" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="41" hits="1" branch="false" />
+            <line number="42" hits="1" branch="false" />
+            <line number="43" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="47" hits="2" branch="false" />
+            <line number="48" hits="2" branch="false" />
+            <line number="49" hits="2" branch="false" />
+            <line number="50" hits="2" branch="false" />
+            <line number="51" hits="2" branch="false" />
+            <line number="52" hits="2" branch="false" />
+            <line number="53" hits="2" branch="false" />
+            <line number="54" hits="2" branch="false" />
+            <line number="55" hits="2" branch="false" />
+            <line number="56" hits="2" branch="false" />
+            <line number="57" hits="2" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Test.TransactionImplementationTest" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp\BankApp.Test\TransactionImplementationTest.cs" line-rate="1" branch-rate="1" complexity="4">
+          <methods>
+            <method name="ShouldAddTransactionWhenThereIsError" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="44" hits="1" branch="false" />
+                <line number="45" hits="1" branch="false" />
+                <line number="46" hits="1" branch="false" />
+                <line number="47" hits="1" branch="false" />
+                <line number="49" hits="1" branch="false" />
+                <line number="50" hits="1" branch="false" />
+                <line number="53" hits="2" branch="false" />
+                <line number="55" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="16" hits="3" branch="false" />
+                <line number="17" hits="3" branch="false" />
+                <line number="18" hits="3" branch="false" />
+                <line number="19" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldAddTransactionWhenNoError" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="23" hits="1" branch="false" />
+                <line number="24" hits="1" branch="false" />
+                <line number="25" hits="1" branch="false" />
+                <line number="26" hits="1" branch="false" />
+                <line number="27" hits="1" branch="false" />
+                <line number="28" hits="1" branch="false" />
+                <line number="29" hits="1" branch="false" />
+                <line number="30" hits="1" branch="false" />
+                <line number="31" hits="1" branch="false" />
+                <line number="33" hits="1" branch="false" />
+                <line number="34" hits="1" branch="false" />
+                <line number="35" hits="1" branch="false" />
+                <line number="37" hits="1" branch="false" />
+                <line number="38" hits="1" branch="false" />
+                <line number="40" hits="1" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldGetAllTransaction" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="59" hits="1" branch="false" />
+                <line number="60" hits="1" branch="false" />
+                <line number="61" hits="1" branch="false" />
+                <line number="63" hits="1" branch="false" />
+                <line number="64" hits="1" branch="false" />
+                <line number="66" hits="1" branch="false" />
+                <line number="69" hits="1" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="16" hits="3" branch="false" />
+            <line number="17" hits="3" branch="false" />
+            <line number="18" hits="3" branch="false" />
+            <line number="19" hits="3" branch="false" />
+            <line number="23" hits="1" branch="false" />
+            <line number="24" hits="1" branch="false" />
+            <line number="25" hits="1" branch="false" />
+            <line number="26" hits="1" branch="false" />
+            <line number="27" hits="1" branch="false" />
+            <line number="28" hits="1" branch="false" />
+            <line number="29" hits="1" branch="false" />
+            <line number="30" hits="1" branch="false" />
+            <line number="31" hits="1" branch="false" />
+            <line number="33" hits="1" branch="false" />
+            <line number="34" hits="1" branch="false" />
+            <line number="35" hits="1" branch="false" />
+            <line number="37" hits="1" branch="false" />
+            <line number="38" hits="1" branch="false" />
+            <line number="40" hits="1" branch="false" />
+            <line number="44" hits="1" branch="false" />
+            <line number="45" hits="1" branch="false" />
+            <line number="46" hits="1" branch="false" />
+            <line number="47" hits="1" branch="false" />
+            <line number="49" hits="1" branch="false" />
+            <line number="50" hits="1" branch="false" />
+            <line number="53" hits="2" branch="false" />
+            <line number="55" hits="1" branch="false" />
+            <line number="59" hits="1" branch="false" />
+            <line number="60" hits="1" branch="false" />
+            <line number="61" hits="1" branch="false" />
+            <line number="63" hits="1" branch="false" />
+            <line number="64" hits="1" branch="false" />
+            <line number="66" hits="1" branch="false" />
+            <line number="69" hits="1" branch="false" />
+          </lines>
+        </class>
+        <class name="BankApp.Test.ValidationTest" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp\BankApp.Test\ValidationTest.cs" line-rate="1" branch-rate="1" complexity="5">
+          <methods>
+            <method name="ShouldValidateEmail" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="27" hits="5" branch="false" />
+                <line number="30" hits="5" branch="false" />
+                <line number="32" hits="5" branch="false" />
+                <line number="33" hits="5" branch="false" />
+                <line number="35" hits="5" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldValidateFirstName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="43" hits="3" branch="false" />
+                <line number="45" hits="3" branch="false" />
+                <line number="46" hits="3" branch="false" />
+                <line number="47" hits="3" branch="false" />
+                <line number="48" hits="3" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldValidateLastName" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="57" hits="4" branch="false" />
+                <line number="58" hits="4" branch="false" />
+                <line number="59" hits="4" branch="false" />
+                <line number="60" hits="4" branch="false" />
+                <line number="61" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name="ShouldValidPassword" signature="(...)" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="70" hits="4" branch="false" />
+                <line number="71" hits="4" branch="false" />
+                <line number="72" hits="4" branch="false" />
+                <line number="73" hits="4" branch="false" />
+                <line number="74" hits="4" branch="false" />
+              </lines>
+            </method>
+            <method name=".ctor" signature="()" line-rate="1" branch-rate="1" complexity="1">
+              <lines>
+                <line number="14" hits="16" branch="false" />
+                <line number="15" hits="16" branch="false" />
+                <line number="16" hits="16" branch="false" />
+                <line number="17" hits="16" branch="false" />
+              </lines>
+            </method>
+          </methods>
+          <lines>
+            <line number="14" hits="16" branch="false" />
+            <line number="15" hits="16" branch="false" />
+            <line number="16" hits="16" branch="false" />
+            <line number="17" hits="16" branch="false" />
+            <line number="27" hits="5" branch="false" />
+            <line number="30" hits="5" branch="false" />
+            <line number="32" hits="5" branch="false" />
+            <line number="33" hits="5" branch="false" />
+            <line number="35" hits="5" branch="false" />
+            <line number="43" hits="3" branch="false" />
+            <line number="45" hits="3" branch="false" />
+            <line number="46" hits="3" branch="false" />
+            <line number="47" hits="3" branch="false" />
+            <line number="48" hits="3" branch="false" />
+            <line number="57" hits="4" branch="false" />
+            <line number="58" hits="4" branch="false" />
+            <line number="59" hits="4" branch="false" />
+            <line number="60" hits="4" branch="false" />
+            <line number="61" hits="4" branch="false" />
+            <line number="70" hits="4" branch="false" />
+            <line number="71" hits="4" branch="false" />
+            <line number="72" hits="4" branch="false" />
+            <line number="73" hits="4" branch="false" />
+            <line number="74" hits="4" branch="false" />
+          </lines>
+        </class>
+      </classes>
+    </package>
+  </packages>
+</coverage>

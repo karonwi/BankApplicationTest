@@ -1,0 +1,10 @@
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\bin\Debug\netcoreapp3.1\BankApp.Models.deps.json
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\bin\Debug\netcoreapp3.1\BankApp.Models.dll
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\bin\Debug\netcoreapp3.1\BankApp.Models.pdb
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\obj\Debug\netcoreapp3.1\BankApp.Models.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\obj\Debug\netcoreapp3.1\BankApp.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\obj\Debug\netcoreapp3.1\BankApp.Models.AssemblyInfoInputs.cache
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\obj\Debug\netcoreapp3.1\BankApp.Models.AssemblyInfo.cs
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\obj\Debug\netcoreapp3.1\BankApp.Models.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\obj\Debug\netcoreapp3.1\BankApp.Models.dll
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Models\obj\Debug\netcoreapp3.1\BankApp.Models.pdb
