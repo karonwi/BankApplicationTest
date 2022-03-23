@@ -16,8 +16,10 @@ namespace BankApp.UI
         private readonly ICustomer _customer;
         private readonly IUtilities _utility;
         private readonly IValidators _validators;
-        public CreateAccount(ICustomer customer, IUtilities utility, IValidators validators)
+        private readonly Home _home;
+        public CreateAccount(ICustomer customer, IUtilities utility, IValidators validators, Home home)
         {
+            _home = home;
             _customer = customer;
             _utility = utility;
             _validators = validators;
@@ -74,7 +76,7 @@ namespace BankApp.UI
                 firstNameLabel.Focus();
                 errorProviderApp.SetError(emailTextBox, "Email should not be left Blank");
             }
-            else if (!_validators.CheckName(emailTextBox.Text))
+            else if (!_validators.CheckEmail(emailTextBox.Text))
             {
                 e.Cancel = true;
                 firstNameTextBox.Focus();
@@ -95,7 +97,7 @@ namespace BankApp.UI
                 firstNameLabel.Focus();
                 errorProviderApp.SetError(paswordTextBox, "Password should not be left Blank");
             }
-            else if (!_validators.CheckName(paswordTextBox.Text))
+            else if (!_validators.CheckPassword(paswordTextBox.Text))
             {
                 e.Cancel = true;
                 firstNameTextBox.Focus();
@@ -123,7 +125,9 @@ namespace BankApp.UI
                 if (check)
                 {
                     MessageBox.Show("User was successfully added");
+
                 }
+                _home.Show();
             }
             catch (Exception ex)
             {

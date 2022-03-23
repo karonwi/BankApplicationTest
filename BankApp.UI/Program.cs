@@ -36,6 +36,7 @@ namespace BankApp.UI
                 .AddScoped<ITransaction, TransactionImplementation>()
                 .AddScoped<ICustomerInRole, CustomerRoleImplementation>()
                 .AddScoped<IReadWriteToJson, ReadWriteToJson>()
+                .AddScoped<IAuthentication, AuthImplementation>()
                 .AddScoped<IValidators, Validators>()
                 .AddScoped<IUtilities, Utilities>()
                 .AddScoped<CustomerInterface>()
