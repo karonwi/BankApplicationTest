@@ -10,8 +10,12 @@ namespace BankApp.UI
 {
     public partial class Home : Form
     {
-        public Home()
+        private readonly CreateAccount _createAccount;
+        private readonly Login _loginAccount;
+        public Home(CreateAccount account, Login loginAccount)
         {
+            _loginAccount = loginAccount;
+            _createAccount = account;
             InitializeComponent();
         }
 
@@ -22,13 +26,12 @@ namespace BankApp.UI
 
         private void loginButton_Click(object sender, EventArgs e)
         {
-
+            _loginAccount.ShowDialog();
         }
 
         private void createAcctBtn_Click(object sender, EventArgs e)
         {
-            CreateAccount createAccount = new CreateAccount(null,null,null);
-            createAccount.ShowDialog();
+            _createAccount.ShowDialog();
 
         }
     }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
-<coverage line-rate="0.6987295825771325" branch-rate="0.375" lines-covered="385" lines-valid="551" branches-covered="24" branches-valid="64" complexity="131" version="0" timestamp="1648050346">
+<coverage line-rate="0.6987295825771325" branch-rate="0.375" lines-covered="385" lines-valid="551" branches-covered="24" branches-valid="64" complexity="131" version="0" timestamp="1648050741">
   <sources>
     <source>C:\Users\hp\</source>
   </sources>
@@ -424,9 +424,9 @@
                 <line number="80" hits="0" branch="false" />
                 <line number="81" hits="0" branch="false" />
                 <line number="82" hits="0" branch="false" />
-                <line number="85" hits="1" branch="false" />
-                <line number="88" hits="3" branch="false" />
-                <line number="89" hits="3" branch="false" />
+                <line number="84" hits="1" branch="false" />
+                <line number="85" hits="3" branch="false" />
+                <line number="86" hits="3" branch="false" />
               </lines>
             </method>
           </methods>
@@ -484,9 +484,9 @@
             <line number="80" hits="0" branch="false" />
             <line number="81" hits="0" branch="false" />
             <line number="82" hits="0" branch="false" />
-            <line number="85" hits="1" branch="false" />
-            <line number="88" hits="3" branch="false" />
-            <line number="89" hits="3" branch="false" />
+            <line number="84" hits="1" branch="false" />
+            <line number="85" hits="3" branch="false" />
+            <line number="86" hits="3" branch="false" />
           </lines>
         </class>
         <class name="BankApp.Implementation.AuthImplementation" filename="C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.Implementation\AuthImplementation.cs" line-rate="0" branch-rate="0" complexity="7">

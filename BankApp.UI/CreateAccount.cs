@@ -7,6 +7,7 @@ using System.Text;
 using System.Windows.Forms;
 using BankApp.Interfaces;
 using BankApp.Models;
+using BankApp.Commons;
 
 namespace BankApp.UI
 {
@@ -129,6 +130,11 @@ namespace BankApp.UI
                 MessageBox.Show(ex.Message);
 
             }
+        }
+
+        private void firstNameTextBox_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

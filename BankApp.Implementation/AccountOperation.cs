@@ -80,12 +80,9 @@ namespace BankApp.Implementation
                         {
                             response = false;
                         }
-
-                        
+  
                     }
-               
-
-                return response;
+                    return response;
             }
         }
     }

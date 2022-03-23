@@ -1,13 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Windows.Forms.Design;
-using BankApp.Interfaces;
-using BankApp.Implementation;
 using BankApp.Commons;
+using BankApp.Implementation;
+using BankApp.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
+using System;
+using System.Windows.Forms;
 
 
 namespace BankApp.UI
@@ -26,13 +22,11 @@ namespace BankApp.UI
             Application.SetCompatibleTextRenderingDefault(false);
             //Application.Run(new AccountStatement());
             var services = new ServiceCollection();
-
             ConfigureServices(services);
-            using ( ServiceProvider serviceProvider = services.BuildServiceProvider())
-            {
-                var form = serviceProvider.GetRequiredService<Home>();
-                Application.Run(form);
-            }
+
+            ServiceProvider serviceProvider = services.BuildServiceProvider();
+            var form = serviceProvider.GetRequiredService<Home>();
+            Application.Run(form);
         }
 
         private static void ConfigureServices(ServiceCollection services)

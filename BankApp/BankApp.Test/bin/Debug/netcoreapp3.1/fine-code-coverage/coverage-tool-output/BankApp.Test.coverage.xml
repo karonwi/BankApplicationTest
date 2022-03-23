@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.6987000000000001" branch-rate="0.375" version="1.9" timestamp="1648046743" lines-covered="385" lines-valid="551" branches-covered="24" branches-valid="64">
+<coverage line-rate="0.6987000000000001" branch-rate="0.375" version="1.9" timestamp="1648047138" lines-covered="385" lines-valid="551" branches-covered="24" branches-valid="64">
   <sources>
     <source>C:\Users\hp\</source>
   </sources>
@@ -648,9 +648,9 @@
                 <line number="80" hits="0" branch="False" />
                 <line number="81" hits="0" branch="False" />
                 <line number="82" hits="0" branch="False" />
-                <line number="85" hits="1" branch="False" />
-                <line number="88" hits="3" branch="False" />
-                <line number="89" hits="3" branch="False" />
+                <line number="84" hits="1" branch="False" />
+                <line number="85" hits="3" branch="False" />
+                <line number="86" hits="3" branch="False" />
               </lines>
             </method>
           </methods>
@@ -703,9 +703,9 @@
             <line number="80" hits="0" branch="False" />
             <line number="81" hits="0" branch="False" />
             <line number="82" hits="0" branch="False" />
-            <line number="85" hits="1" branch="False" />
-            <line number="88" hits="3" branch="False" />
-            <line number="89" hits="3" branch="False" />
+            <line number="84" hits="1" branch="False" />
+            <line number="85" hits="3" branch="False" />
+            <line number="86" hits="3" branch="False" />
           </lines>
         </class>
         <class name="BankApp.Implementation.AuthImplementation" filename="Desktop\karonwi\week-5-karonwi\BankApp.Implementation\AuthImplementation.cs" line-rate="0" branch-rate="1" complexity="1">
