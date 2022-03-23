@@ -51,38 +51,39 @@ namespace BankApp.Implementation
         public async Task<bool> Withdraw(string accountNumber, string withdrawalAmount)
             {
                 bool response = false;
-                try
-                {
+               
                     Account account = await _account.GetAccountDetails(accountNumber);
-                    double minBalance = account.AccountType == "Saving" ? 1000.0 : 0.0;
-                    double amount = Convert.ToDouble(withdrawalAmount);
-                    if (amount <= account.Balance - minBalance)
+                    if (account != null)
                     {
-                        account.Balance -= amount;
-                        bool check = await _account.UpdateAccount(account);
-                        if (check)
+
+                        double minBalance = account.AccountType == "Saving" ? 1000.0 : 0.0;
+                        double amount = Convert.ToDouble(withdrawalAmount);
+                        if (amount <= account.Balance - minBalance)
                         {
-                            Transaction transaction = new Transaction()
+                            account.Balance -= amount;
+                            bool check = await _account.UpdateAccount(account);
+                            if (check)
                             {
-                                AccountNumber = accountNumber,
-                                Description = "Withdraw Cash",
-                                Amount = withdrawalAmount,
-                                Balance = account.Balance.ToString()
-                            };
-                            await _transaction.AddTransaction(transaction);
+                                Transaction transaction = new Transaction()
+                                {
+                                    AccountNumber = accountNumber,
+                                    Description = "Withdraw Cash",
+                                    Amount = withdrawalAmount,
+                                    Balance = account.Balance.ToString()
+                                };
+                                await _transaction.AddTransaction(transaction);
+                            }
+
+                            response = true;
+                        }
+                        else if (amount > account.Balance - minBalance)
+                        {
+                            response = false;
                         }
 
-                        response = true;
+                        
                     }
-                    else if (amount > account.Balance - minBalance)
-                    {
-                        response = false;
-                    }
-                }
-                catch (Exception)
-                {
-                    throw;
-                }
+               
 
                 return response;
             }

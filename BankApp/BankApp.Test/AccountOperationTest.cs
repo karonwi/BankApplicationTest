@@ -39,8 +39,20 @@ namespace BankApp.Test
         }
 
         [Theory]
+        [InlineData("123456789", "4000", true)]
+        [InlineData("112233445", "10000", false)]
+        [InlineData("1233222220", "200", false)]
+        public async void Withdraw_Should(string accountNumber, string withdrawalAmount,bool expected)
+        {
+            AccountDetailsMock();
+            _mockTransaction.Setup(x => x.AddTransaction(It.IsAny<Transaction>())).ReturnsAsync(true);
 
+            var accountOperation = new AccountOperation(_mockTransaction.Object, _mockAccount.Object);
 
+            var actual = await accountOperation.Withdraw(accountNumber, withdrawalAmount);
+
+            Assert.Equal(expected,actual);
+        }
       
         #region Account Detail Implementation
 
