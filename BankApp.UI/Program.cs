@@ -30,7 +30,7 @@ namespace BankApp.UI
             ConfigureServices(services);
             using ( ServiceProvider serviceProvider = services.BuildServiceProvider())
             {
-                var form = serviceProvider.GetRequiredService<CreateAccount>();
+                var form = serviceProvider.GetRequiredService<Home>();
                 Application.Run(form);
             }
         }
@@ -47,8 +47,11 @@ namespace BankApp.UI
                 .AddScoped<CustomerInterface>()
                 .AddScoped<CreateAccount>()
                 .AddScoped<AccountStatement>()
-                .AddScoped<Transfer>();
-                
+                .AddScoped<Transfer>()
+                .AddScoped<Home>()
+                .AddScoped<Login>();
+
+
 
         }
     }

@@ -31,3 +31,5 @@ C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.UI\obj\Debug\netcoreapp3.1\Ba
 C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.UI\obj\Debug\netcoreapp3.1\BankApp.UI.dll
 C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.UI\obj\Debug\netcoreapp3.1\BankApp.UI.pdb
 C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.UI\obj\Debug\netcoreapp3.1\BankApp.UI.genruntimeconfig.cache
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.UI\obj\Debug\netcoreapp3.1\BankApp.UI.Home.resources
+C:\Users\hp\Desktop\karonwi\week-5-karonwi\BankApp.UI\obj\Debug\netcoreapp3.1\BankApp.UI.Login.resources
