@@ -19,18 +19,15 @@ namespace BankApp.Implementation
             _customerInRole = customerInRole;
             _Utilities = Utilities;
         }
-        public async Task<Dictionary<string, Customer>> Login(string email, string password)
+        public async Task<Customer> Login(string email, string password)
         {
             string hashPassword = _Utilities.ComputeSha256Hash(password);
             var users = await _customer.GetAllCustomers();
-            var result = new Dictionary<string, Customer>();
             foreach (var item in users)
             {
                 if (item.Email == email && item.Password == hashPassword)
                 {
-                    string role = await _customerInRole.GetUserRoles(item.Id);
-                    result[role] = item;
-                    return result;
+                    return item;
                 }
 
             }

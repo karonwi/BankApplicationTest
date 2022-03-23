@@ -15,8 +15,10 @@ namespace BankApp.UI
         private readonly IAccount _account;
         private readonly IServiceProvider _serviceProvider;
         private readonly IAccountOperation _accountOperation;
-        public CustomerInterface(IAccount account, IServiceProvider serviceProvider, IAccountOperation accountOperation)
+        private readonly GetAccount _getAccount;
+        public CustomerInterface(IAccount account, IServiceProvider serviceProvider, IAccountOperation accountOperation,GetAccount getAccount)
         {
+            _getAccount = getAccount;
             _account = account;
             _serviceProvider = serviceProvider;
             _accountOperation = accountOperation;
@@ -103,6 +105,12 @@ namespace BankApp.UI
         {
             this.Close();
             
+        }
+
+        private void createAcctBtn_Click(object sender, EventArgs e)
+        {
+            _getAccount.Show();
+
         }
     }
 }

@@ -30,8 +30,7 @@ namespace BankApp.UI
                 var customers = await _authentication.Login(emailTextBox.Text, passwordTxtArea.Text);
                 if (customers != null)
                 {
-                    GlobalVariable.CustomerRole = customers.Keys.SingleOrDefault();
-                    GlobalVariable.GlobalCustomer = customers[GlobalVariable.CustomerRole];
+                    GlobalVariable.GlobalCustomer = customers;
 
                     this.Hide();
                     CustomerInterface customerInterface= _serviceProvider.GetRequiredService<CustomerInterface>();

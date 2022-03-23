@@ -8,6 +8,7 @@ using System.Windows.Forms;
 using BankApp.Interfaces;
 using BankApp.Models;
 using BankApp.Commons;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace BankApp.UI
 {
@@ -16,10 +17,10 @@ namespace BankApp.UI
         private readonly ICustomer _customer;
         private readonly IUtilities _utility;
         private readonly IValidators _validators;
-        private readonly Home _home;
-        public CreateAccount(ICustomer customer, IUtilities utility, IValidators validators, Home home)
+        private readonly IServiceProvider _serviceProvider;
+        public CreateAccount(ICustomer customer, IUtilities utility, IValidators validators, IServiceProvider serviceProvider)
         {
-            _home = home;
+            _serviceProvider = serviceProvider;
             _customer = customer;
             _utility = utility;
             _validators = validators;
@@ -127,7 +128,9 @@ namespace BankApp.UI
                     MessageBox.Show("User was successfully added");
 
                 }
-                _home.Show();
+                this.Hide();
+                Home home = _serviceProvider.GetRequiredService<Home>();
+                home.Show();
             }
             catch (Exception ex)
             {

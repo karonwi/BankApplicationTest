@@ -51,7 +51,6 @@ namespace BankApp.Implementation
                     }
                 }
             }
-
             return null;
         }
 

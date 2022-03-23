@@ -55,6 +55,7 @@
             this.createAcctBtn.TabIndex = 0;
             this.createAcctBtn.Text = "Create Account";
             this.createAcctBtn.UseVisualStyleBackColor = false;
+            this.createAcctBtn.Click += new System.EventHandler(this.createAcctBtn_Click);
             // 
             // accountStatementBtn
             // 

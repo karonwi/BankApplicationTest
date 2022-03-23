@@ -11,7 +11,7 @@ namespace BankApp.Commons
 {
     public class ReadWriteToJson : IReadWriteToJson
     {
-        private string db = Path.Combine(Environment.CurrentDirectory, @"db\", "Customer.json");
+        private string db = Path.Combine(Environment.CurrentDirectory, @"db\");
 
         public async Task<List<T>> ReadJson<T>(string jsonFile)
         {

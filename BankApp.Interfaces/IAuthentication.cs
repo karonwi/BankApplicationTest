@@ -8,6 +8,6 @@ namespace BankApp.Interfaces
 {
     public interface IAuthentication
     {
-        Task<Dictionary<string, Customer>> Login(string email, string password);
+        Task<Customer> Login(string email, string password);
     }
 }

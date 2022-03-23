@@ -39,6 +39,7 @@ namespace BankApp.UI
                 .AddScoped<IAuthentication, AuthImplementation>()
                 .AddScoped<IValidators, Validators>()
                 .AddScoped<IUtilities, Utilities>()
+                .AddScoped<IAccountOperation, AccountOperation>()
                 .AddScoped<CustomerInterface>()
                 .AddScoped<CreateAccount>()
                 .AddScoped<AccountStatement>()
