@@ -1,0 +1,11 @@
+name: First workflow
+on: workflow_trigger
+jobs: 
+  first_job:
+    runs-on: ubuntu-latest
+    steps: 
+      -name: Print "Welcome to my bank App"
+       run:Console.Writeline" Welcome"
+      -name: Print "Check Balance"
+       run: Console.Writeline"Checking Balance"
+       
