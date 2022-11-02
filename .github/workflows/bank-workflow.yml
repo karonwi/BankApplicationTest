@@ -7,5 +7,5 @@ jobs:
       -name: Print "Welcome to my bank App"
        run:Console.Writeline" Welcome"
       -name: Print "Check Balance"
-       run: Console.Writeline"Checking Balance"
+       run: Console.Writeline"Checking "
        
