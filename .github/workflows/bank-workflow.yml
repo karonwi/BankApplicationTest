@@ -4,8 +4,8 @@ jobs:
   first_job:
     runs-on: ubuntu-latest
     steps: 
-      -name: Print "Welcome to my bank App"
+      -name: Print Welcome to my bank App
        run: echo " Welcome"
-      -name: Print "Check Balance"
+      -name: Print Check Balance
        run: echo "Checking "
        
