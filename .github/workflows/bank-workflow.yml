@@ -5,8 +5,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       -name: Print Welcome to my bank App
-       run:echo "Welcome"
-       -name: Print Okay
-       run: echo testing
-
+       run: echo "Welcome"
+       -name: Print Hello World
+       run: echo "Hello"
        
