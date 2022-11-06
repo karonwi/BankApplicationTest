@@ -3,9 +3,10 @@ on: workflow_dispatch
 jobs: 
   first_job:
     runs-on: ubuntu-latest
-    steps: 
-      -name: Print Welcome to my bank App
-       run: echo "Welcome"
-       -name: Print Hello World
-       run: echo "Hello"
+    steps:
+      -name: Print "Hello Word"
+      run: echo "Hello word"
+      -name: Print "Just testing"
+      run:echo "baby"
+  
        
